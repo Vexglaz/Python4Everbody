@@ -125,6 +125,8 @@ def arithmetic_arranger(adders, input):
                         line2 = line2 + tempStr + " " + b
                     y += 1
                     #print(bar)
+            # for SOE view:
+            print(a + " = " + actualValue)
             
             #print(adders)
             #print(input)
@@ -134,8 +136,7 @@ def arithmetic_arranger(adders, input):
 
     else : 
                         
-        # for SOE view:
-        print(a + " = " + actualValue)
+
         print("Select True in order to view out puts")
     if(input):
         print("\n" + line1 + "\n" + line2 + "\n" + line3 + "\n" + line4 + "\n")
